@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Dr. Ahmed Ali",
+    "specialty": "Cardiology",
+    "city": "Khartoum",
+    "workplace": "Khartoum Teaching Hospital",
+    "contact": "+249912345678",
+    "location": "https://maps.google.com/?q=Khartoum+Hospital",
+    "schedule": "Sat-Thu 9am-3pm",
+    "note": "Consultant cardiologist",
+    "email": "ahmed.ali@example.com"
+  },
+  {
+    "name": "Dr. Fatima Hassan",
+    "specialty": "Cardiology",
+    "city": "Medani",
+    "workplace": "Medani Heart Center",
+    "contact": "+249911234567",
+    "location": "https://maps.google.com/?q=Medani+Heart+Center",
+    "schedule": "Sun-Thu 10am-4pm",
+    "note": "Specialist in heart failure",
+    "email": "fatima.hassan@example.com"
+  }
+]
+

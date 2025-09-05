@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sudanese Doctors</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" type="image/png" href="icon-32.png" />
+  <script src="translations.js"></script>
+</head>
+<body>
+  <header>
+    <span id="appTitle">Sudanese Doctors</span>
+    <button id="langToggle" class="lang-btn">عربي</button>
+  </header>
+
+  <section class="filters">
+    <input id="searchInput" type="text" placeholder="Search by name..." />
+    <select id="specialityFilter">
+      <option value="">Speciality</option>
+    </select>
+    <select id="cityFilter">
+      <option value="">City</option>
+    </select>
+  </section>
+
+  <hr />
+
+  <section class="doctors-names">
+    <ul id="doctorsList"></ul>
+  </section>
+
+  <footer>
+    <hr />
+    <p id="poweredBy">Powered by: example@mail.com</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
