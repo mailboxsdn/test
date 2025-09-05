@@ -1,0 +1,159 @@
+/* GENERAL RESET */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+}
+
+/* HEADER - only for main page */
+header {
+  background-color: #0d47a1;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* FILTERS */
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1rem;
+}
+
+.filters input,
+.filters select {
+  padding: 1rem;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  border: 1px solid #0d47a1;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.filters input:focus,
+.filters select:focus {
+  outline: none;
+  border-color: #1976d2;
+  box-shadow: 0 0 5px rgba(25, 118, 210, 0.5);
+}
+
+hr {
+  margin: 1rem 0;
+  border: 0;
+  border-top: 2px solid #0d47a1;
+}
+
+/* DOCTOR LIST */
+.doctors-names ul {
+  list-style: none;
+  padding: 0 1rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.doctors-names li {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+  font-size: 1.1rem;
+  color: #0d47a1;
+  transition: transform 0.1s, box-shadow 0.2s;
+}
+
+.doctors-names li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.doctors-names li:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* DETAILS PAGE */
+.details-container {
+  padding: 1rem;
+}
+
+.back-btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  background-color: #0d47a1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.back-btn:hover {
+  background-color: #1976d2;
+}
+
+.doctor-details {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.doctor-details p {
+  margin: 0.4rem 0;
+}
+
+.doctor-details p strong {
+  font-weight: bold;
+  color: #0d47a1;
+}
+
+/* DOCTOR BUTTONS */
+.doctor-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.doctor-buttons a {
+  display: block;
+  text-align: center;
+  padding: 0.9rem;
+  background-color: #0d47a1;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.doctor-buttons a:hover {
+  background-color: #1976d2;
+}
+
+.doctor-buttons a i {
+  margin-right: 0.5rem;
+}
+
+/* FOOTER */
+footer {
+  padding: 0.5rem 1rem;
+  background-color: #f1f1f1;
+  color: #333;
+  margin-top: 1rem;
+  border-top: 1px solid #ccc;
+  font-size: 0.9rem;
+  text-align: center;
+}
